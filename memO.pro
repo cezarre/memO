@@ -13,8 +13,10 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    getstdoutfromcommand.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    getstdoutfromcommand.h
 
 FORMS    += mainwindow.ui
