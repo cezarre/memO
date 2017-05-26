@@ -32,10 +32,10 @@ private:
     QSystemTrayIcon * trayIcon;
     QMenu * trayIconMenu;
 
-    QAction *minimizeAction;    // minimalizowanie okna
-    QAction *cur_mem;    // maksymalizowanie okna
-    QAction *prefrencesAction;       // pokazanie okna
-    QAction *quitAction;        // wyjście z aplikacji
+    QAction *minimizeAction;
+    QAction *cur_mem;
+    QAction *prefrencesAction;
+    QAction *quitAction;
 };
 
 #endif // MAINWINDOW_H
